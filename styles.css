@@ -2,36 +2,15 @@ body {
   background-color: #111223;
 }
 
-
-div[class*='AdHolder']{
-  display: none;
-  visibility: none;
-  aria-hidden: "true";
-  hidden: true;
-}
-
-
-div[class*='sbv-product']{
-  display: none;
-  visibility: none;
-  aria-hidden: "true";
-  hidden: true;
-}
-
-
-div[class*='sbv-video-container']{
-  display: none;
-  visibility: none;
-  aria-hidden: "true";
-  hidden: true;
-}
-
-
+div[class*='AdHolder'],
+div[class*='sbv-product'],
+div[class*='sbv-video-container'],
 div[class*='template=SHOPPING_ADVISER']{
   display: none;
   visibility: none;
   aria-hidden: "true";
   hidden: true;
+  height: 0;
+  overflow: hidden;
 }
-
 
