@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Banish Amazon Sponsored",
-    "description": "This Chrome extension banishes sponsored products from Amazon's online store, showing you more of the things you were actually looking for.",
+    "description": "Chrome extension to hide sponsored products from Amazon search results, showing you more of the stuff you were actually looking for",
     "version": "1.3",
 
     "content_scripts": [
